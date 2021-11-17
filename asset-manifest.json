@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Word-Pad/static/css/main.6d1549b2.chunk.css",
+    "main.js": "/Word-Pad/static/js/main.c57bb846.chunk.js",
+    "main.js.map": "/Word-Pad/static/js/main.c57bb846.chunk.js.map",
+    "runtime-main.js": "/Word-Pad/static/js/runtime-main.1697c2c2.js",
+    "runtime-main.js.map": "/Word-Pad/static/js/runtime-main.1697c2c2.js.map",
+    "static/js/2.2c4be4db.chunk.js": "/Word-Pad/static/js/2.2c4be4db.chunk.js",
+    "static/js/2.2c4be4db.chunk.js.map": "/Word-Pad/static/js/2.2c4be4db.chunk.js.map",
+    "static/js/3.c30fbaf1.chunk.js": "/Word-Pad/static/js/3.c30fbaf1.chunk.js",
+    "static/js/3.c30fbaf1.chunk.js.map": "/Word-Pad/static/js/3.c30fbaf1.chunk.js.map",
+    "index.html": "/Word-Pad/index.html",
+    "static/css/main.6d1549b2.chunk.css.map": "/Word-Pad/static/css/main.6d1549b2.chunk.css.map",
+    "static/js/2.2c4be4db.chunk.js.LICENSE.txt": "/Word-Pad/static/js/2.2c4be4db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1697c2c2.js",
+    "static/js/2.2c4be4db.chunk.js",
+    "static/css/main.6d1549b2.chunk.css",
+    "static/js/main.c57bb846.chunk.js"
+  ]
+}
