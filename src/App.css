@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1b1b1b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +35,150 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li:hover {
+  opacity: 0.6;
+}
+
+.text {
+  padding: 24px;
+  width: 100%;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+}
+
+.details {
+  width: 100%;
+  height: 200px !important;
+  /* background-color: rgb(29, 29, 29); */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.89em;
+  grid-gap: 3em;
+}
+.details span {
+  color: rgb(23, 143, 255);
+}
+
+.details p {
+  padding: 1em;
+}
+.textarea {
+  resize: none;
+  width: 100%;
+  border-radius: 10px !important;
+  padding-top: 22px;
+  padding-left: 22px !important;
+  border: 1px solid rgb(119, 119, 119);
+}
+
+.textarea:focus {
+  border: 1px solid rgb(224, 224, 224);
+  outline: none;
+}
+.textarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(41, 41, 41);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Handle */
+.textarea::-webkit-scrollbar-thumb {
+  background: rgb(129, 129, 129);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.textarea::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+  cursor: pointer;
+}
+
+.preview {
+  width: 100%;
+  height: auto;
+  padding: 0.4em;
+}
+
+.about {
+  border-radius: 23px;
+  height: 80vh;
+}
+.main-input {
+  cursor: pointer !important;
+}
+
+.all-divs {
+  display: flex;
+}
+#custom {
+  margin-right: 0.7em;
+}
+
+#customTheme {
+  display: flex;
+  width: 100%;
+  opacity: 1.22;
+  border-radius: 23px;
+  overflow-y: hidden !important;
+  cursor: pointer;
+  padding: 0.2em;
+  position: relative;
+}
+
+#customTheme::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  mix-blend-mode: darken;
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  height: 100vh;
+}
+
+.individual-theme {
+  overflow: hidden;
+  width: 24px;
+  height: 23px;
+  margin-left: 2px;
+  border-radius: 50px;
+  z-index: 10000;
+  transition: 0.2s all ease-in-out;
+}
+
+#theme-text {
+  display: none;
+  color: #138dff;
+  padding: 0em 0.56em;
+}
+
+.individual-theme:hover #theme-text {
+  display: block;
+}
+#sepia:hover {
+  width: 65px;
+}
+
+#dark:hover {
+  width: 56px;
+}
+
+#amoled:hover {
+  width: 75px;
+}
+
+#purple:hover {
+  width: 65px;
+}
+#oceanic:hover {
+  width: 70px;
 }
